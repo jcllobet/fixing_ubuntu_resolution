@@ -56,3 +56,6 @@ sudo reboot
 & good to go.
 
 
+OR OR OR
+
+just check software updates packages and pick whatever the latest nvidia driver is hooked to (not xorg)
