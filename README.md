@@ -42,7 +42,7 @@ xrandr --addmode default 1920x1080_60.00`
 
 [How to set an executable script](https://askubuntu.com/questions/890231/adding-newmode-with-xrandr-800x480-60-00)
 
-# Potential problem num2: Driver Update
+# If you have a fat GPU, this could also be a Driver Update Issue
 This has been a recurring problem for me (it almost never is a resolution issue. If that is also your case, you can reset everything to normal with this:
 
 `sudo apt-get purge nvidia*
