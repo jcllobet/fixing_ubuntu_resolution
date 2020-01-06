@@ -19,3 +19,6 @@ Alternatively, you can also do it from Ubuntu's GUI by searching for software up
 The easier fix is a `sudo apt update` but that rarely does it. For the, the issue has actually always been the same. The headphone channel from `alsamixer` is set to 0. Audio instantly comes once I increase its volume. 
 
 
+What made it for me: `amixer -q set Headphone 100 unmute`
+
+[Useful Link](https://leimao.github.io/blog/Ubuntu-No-Sound-Fix/)
